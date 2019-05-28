@@ -1,0 +1,110 @@
+#background {
+  background-image: url(https://res.cloudinary.com/marpenncloud/image/upload/v1559074215/sky-1281662_1280.jpg_jaqlod.png)
+}
+
+.spanA {
+  color: white;
+}
+
+.span0 {
+ font-weight: bold;
+}
+
+.span1 {
+  color: #c94c4c;
+}
+
+.span2 {
+  color: #eea29a;
+}
+
+.span3 {
+  color: #b1cbbb;
+}
+
+.span4 {
+  color: #feb236;
+}
+
+.span5 {
+  color: #405d27;
+}
+
+.span6 {
+  color: #eca1a6;
+}
+
+
+li {
+  margin-right: 40px;
+  font-size: 22px
+}
+
+.spanLink {
+  color: white;
+  font-family: Lobster;
+  
+}
+
+.hover1:hover {
+  color: #c94c4c;
+}
+
+.hover2:hover {
+  color: #b1cbbb;
+}
+
+.hover3:hover {
+  color: #feb236;
+}
+
+
+
+
+@media (min-width: 992px) {
+    .About {
+        margin-left: 100%;
+        
+    }
+}
+
+@media (max-width: 991px) {
+  .About {
+    margin-bottom: -4%;
+  }
+}
+
+.outline {
+	text-shadow:
+		-1px -1px 0 #777,
+		1px -1px 0 #777,
+		-1px 1px 0 #777,
+		1px 1px 0 #777;
+}
+
+.navbar{
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.element {
+  margin-top: 20px;
+}
+
+.clear {
+    position: absolute !important;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(52, 58, 64, 0.0) !important;
+}
+.navbar{
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+#home {
+  font-size: 30px;
+  font-family: Raleway;
+}
